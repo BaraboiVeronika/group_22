@@ -1,0 +1,172 @@
+{
+	"id": "4f16c27c-353c-47e8-9808-a25edd7d7ca9",
+	"name": "HW1_Postman",
+	"timestamp": "2021-09-14T16:53:04.257Z",
+	"collection_id": "17168582-dda93c9d-4534-4946-bb61-09d4e0ab59fb",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "16bc4b08-df8c-414f-852a-7891360ca525",
+			"name": "EP_1",
+			"url": "http://162.55.220.72:5005/get_method?name=Veronika&age=23",
+			"time": 149,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				149
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "661d8880-5dd9-4343-93f2-898b08292233",
+			"name": "EP_2",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 140,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				140
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e0ccc8da-bdfd-49f3-a7e9-37ca6173d27d",
+			"name": "EP_3",
+			"url": "http://162.55.220.72:5005/object_info_1?name=Katia&age=33&weight=50",
+			"time": 119,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				119
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2091238c-2783-4ea4-ae8d-34b055f091c8",
+			"name": "EP_4",
+			"url": "http://162.55.220.72:5005/object_info_2?name=Maria&age=17&salary=500",
+			"time": 148,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				148
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b8836de9-ecc5-46b3-8c36-6b62f8fe9abe",
+			"name": "EP_5",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Sasha&age=25&salary=8900",
+			"time": 146,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				146
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "75285746-a571-4044-9ff9-6b4450012911",
+			"name": "EP_6",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Tanya&age=19&salary=800",
+			"time": 119,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				119
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0a513837-f02f-4c0c-b596-3a3d9b734bf0",
+			"name": "EP_7",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 134,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				134
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 955,
+	"collection": {
+		"requests": [
+			{
+				"id": "16bc4b08-df8c-414f-852a-7891360ca525",
+				"method": "GET"
+			},
+			{
+				"id": "661d8880-5dd9-4343-93f2-898b08292233",
+				"method": "POST"
+			},
+			{
+				"id": "e0ccc8da-bdfd-49f3-a7e9-37ca6173d27d",
+				"method": "GET"
+			},
+			{
+				"id": "2091238c-2783-4ea4-ae8d-34b055f091c8",
+				"method": "GET"
+			},
+			{
+				"id": "b8836de9-ecc5-46b3-8c36-6b62f8fe9abe",
+				"method": "GET"
+			},
+			{
+				"id": "75285746-a571-4044-9ff9-6b4450012911",
+				"method": "GET"
+			},
+			{
+				"id": "0a513837-f02f-4c0c-b596-3a3d9b734bf0",
+				"method": "POST"
+			}
+		]
+	}
+}
