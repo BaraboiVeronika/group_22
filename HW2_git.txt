@@ -15,7 +15,8 @@ git push -u origin Bug_reports Charles CheckLists Jmeter Mobile_testing Postman 
 3) В ветке Bag Reports сделать текстовый документ со структурой баг репорта.
 
 touch Bug_report_structure.xlsx, внести туда данные
-git commit -a -m "New file 1"
+git add Bug_report_structure.xlsx
+git commit -m "New file 1"
 
 4) Запушить структуру багрепорта на внешний репозиторий:
 
@@ -34,7 +35,8 @@ git push
 
 git checkout CheckLists
 touch Checklist_structure.xlsx, внести туда данные
-git commit -a -m "New file 2"
+git add Checklist_structure.xlsx
+git commit -m "New file 2"
 
 8) Запушить структуру на внешний репозиторий:
 git push
