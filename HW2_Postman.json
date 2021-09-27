@@ -1,0 +1,300 @@
+{
+	"id": "bd4caa8b-7cd7-448d-9c05-bb693145b9f0",
+	"name": "HW2_Postman",
+	"timestamp": "2021-09-27T17:51:21.128Z",
+	"collection_id": "17168582-74b85c94-e6dd-43d1-8610-eee356d78bed",
+	"folder_id": 0,
+	"environment_id": "3bd4272a-c97c-408d-940f-dd41d631390e",
+	"totalPass": 22,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "5dec546b-07dd-49a7-99f3-f5c9c7540088",
+			"name": "1_login",
+			"url": "http://162.55.220.72:5005/login",
+			"time": 187,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				187
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c29891a4-3111-4dcf-8be8-3de807374471",
+			"name": "2_user_info",
+			"url": "http://162.55.220.72:5005/user_info",
+			"time": 183,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"Check_salary1": true,
+				"Check_salary2": true,
+				"Check_salary3": true,
+				"Check_salary4": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check_salary1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check_salary2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check_salary3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check_salary4": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				183
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"Check_salary1": true,
+					"Check_salary2": true,
+					"Check_salary3": true,
+					"Check_salary4": true
+				}
+			]
+		},
+		{
+			"id": "3eee9b7a-7ce5-4e56-a718-2ef2e93a23db",
+			"name": "3_new_data",
+			"url": "http://162.55.220.72:5005/new_data",
+			"time": 176,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"Check_salary1": true,
+				"Check_salary2": true,
+				"Check_salary3": true,
+				"Check_the_biggest_salary": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check_salary1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check_salary2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check_salary3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check_the_biggest_salary": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				176
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"Check_salary1": true,
+					"Check_salary2": true,
+					"Check_salary3": true,
+					"Check_the_biggest_salary": true
+				}
+			]
+		},
+		{
+			"id": "f8d97472-8fe3-44bc-b261-74cc167e6108",
+			"name": "4_test_pet_info",
+			"url": "http://162.55.220.72:5005/test_pet_info",
+			"time": 195,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"Check_daily_food": true,
+				"Check_daily_sleep": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check_daily_food": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check_daily_sleep": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				195
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"Check_daily_food": true,
+					"Check_daily_sleep": true
+				}
+			]
+		},
+		{
+			"id": "65dec1d4-a3be-44c4-b962-a3ac2cabd14b",
+			"name": "5_get_test_user",
+			"url": "http://162.55.220.72:5005/get_test_user",
+			"time": 231,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"Check_name": true,
+				"Check_age": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check_age": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				231
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"Check_name": true,
+					"Check_age": true
+				}
+			]
+		},
+		{
+			"id": "d580b714-e9cf-4ca8-9a24-4f56a4167bd4",
+			"name": "6_currency and 7_curr_byn",
+			"url": "http://162.55.220.72:5005/currency",
+			"time": 764,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				764
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1736,
+	"collection": {
+		"requests": [
+			{
+				"id": "5dec546b-07dd-49a7-99f3-f5c9c7540088",
+				"method": "POST"
+			},
+			{
+				"id": "c29891a4-3111-4dcf-8be8-3de807374471",
+				"method": "POST"
+			},
+			{
+				"id": "3eee9b7a-7ce5-4e56-a718-2ef2e93a23db",
+				"method": "POST"
+			},
+			{
+				"id": "f8d97472-8fe3-44bc-b261-74cc167e6108",
+				"method": "POST"
+			},
+			{
+				"id": "65dec1d4-a3be-44c4-b962-a3ac2cabd14b",
+				"method": "POST"
+			},
+			{
+				"id": "d580b714-e9cf-4ca8-9a24-4f56a4167bd4",
+				"method": "POST"
+			}
+		]
+	}
+}
