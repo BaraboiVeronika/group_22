@@ -2,13 +2,13 @@
 select * from qa_users;
 
 2. Вывести всех студентов в таблице:
-select * from qa_users; 
+select username from qa_users; 
 
 3. Вывести только Id пользователей:
 select user_id from qa_users;
 
 4. Вывести только имя пользователей:
-select * from qa_users;
+select username from qa_users;
 
 5. Вывести только email пользователей:
 select email from qa_users;
