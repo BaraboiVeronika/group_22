@@ -83,13 +83,14 @@ join roles on roles_employees.role_id = roles.id
 where role_name like '%Manual QA engineer%';
 
 
-11. Вывести имена и должность автоматизаторов QA
+11. Вывести имена и должность автоматизаторов QA:
 
 select employee_name, role_name
 from employees 
 join roles_employees on employees.id = roles_employees.employee_id
 join roles on roles_employees.role_id = roles.id 
 where role_name like '%Automation QA engineer%';
+
 
 12. Вывести имена и зарплаты Junior специалистов:
 
@@ -158,6 +159,7 @@ join roles_employees on employees.id = roles_employees.employee_id
 join roles on roles_employees.role_id = roles.id 
 where role_name = 'Middle JavaScript developer';
 
+
 19. Вывести имена и зарплаты Senior Java разработчиков:
 
 select employee_name, monthly_salary
@@ -166,6 +168,7 @@ join employees_salary on employees.id = employees_salary.employee_id
 join roles_employees on employees.id = roles_employees.employee_id
 join roles on roles_employees.role_id = roles.id 
 where role_name = 'Senior Java developer';
+
 
 20. Вывести зарплаты Junior QA инженеров:
 
