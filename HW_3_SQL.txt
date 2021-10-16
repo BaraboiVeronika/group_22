@@ -107,13 +107,6 @@ values (default, 1000)
 insert into salary (id, monthly_salary)
 values (default, 200)
 
-select id_employee, employee_name, role_title, monthly_salary
-from employees 
-join employees_roles on employees.id = employees_roles.id_employee 
-join roles on employees_roles.id_role = roles.id 
-join roles_salary on roles.id = roles_salary.id_role 
-join salary on roles_salary.id_salary = salary.id
-
 create table roles_salary (
 	id serial primary key,
 	id_role int not null,
@@ -293,4 +286,4 @@ alter table employees
 add column education varchar (50); 
 
 alter table salary
-add column currency varchar (7); 
+add column currency varchar (7)
