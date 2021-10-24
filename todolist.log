@@ -1,0 +1,56 @@
+1963:10-24 18:49:44.910 29584 29584 W ActivityThread: Application com.android.todolist can be debugged on port 8100...
+1965:10-24 18:49:45.369 29584 29584 D ActivityThread: add activity client record, r= ActivityRecord{8479761 token=android.os.BinderProxy@2fd2fc7 {com.android.todolist/com.android.todolist.MainActivity}} token= android.os.BinderProxy@2fd2fc7
+1966:10-24 18:49:45.395  1943  3500 I HidataAppQoeP: foregroundUidAdd uid: 10315 name: com.android.todolist activity state: true
+1967:10-24 18:49:45.396  1943  2216 I UidCloseNrStateMachine: enter uidStateChanged, ForeGrountApp = com.android.todolist, mIsCallOn = false, mIsUsbPlugged = true
+2240:10-24 18:50:10.871  1943  3500 I HidataAppQoeP: foregroundUidRemove uid: 10315 name: com.android.todolist
+2365:10-24 18:52:36.613  1943  3500 I HidataAppQoeP: foregroundUidAdd uid: 10315 name: com.android.todolist activity state: true
+2491:10-24 18:52:52.386  1943  3500 I HidataAppQoeP: foregroundUidRemove uid: 10315 name: com.android.todolist
+2562:10-24 18:54:31.116  1943  3500 I HidataAppQoeP: foregroundUidAdd uid: 10315 name: com.android.todolist activity state: true
+2787:10-24 18:54:36.774  1943  3500 I HidataAppQoeP: foregroundUidRemove uid: 10315 name: com.android.todolist
+3265:10-24 19:21:00.647  1943  3500 I HidataAppQoeP: foregroundUidAdd uid: 10315 name: com.android.todolist activity state: true
+3266:10-24 19:21:00.648  1943  2216 I UidCloseNrStateMachine: enter uidStateChanged, ForeGrountApp = com.android.todolist, mIsCallOn = false, mIsUsbPlugged = true
+5552:10-24 19:33:30.735  1120  1149 V WindowManager: addWindow: Window{c3d0c04 u0 com.android.todolist/com.android.todolist.MainActivity}
+5553:10-24 19:33:30.758 29584  2292 D HiTouch_PressGestureDetector: onAttached, package=com.android.todolist, windowType=2, mHiTouchRestricted=false
+5611:10-24 19:33:32.211 29584 29584 I ResourcesImplEx: The apk asset path = ApkAssets{path=/data/app/com.android.todolist-Y2VUxD92hyYMo_V7LuX9Uw==/base.apk}
+5637:10-24 19:33:32.433  1120  1207 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{c3d0c04 u0 com.android.todolist/com.android.todolist.MainActivity}
+5715:10-24 19:33:34.316   699  1359 E BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#1]:1338: disconnect: not connected (req=1)
+5718:10-24 19:33:34.318  1120  4171 V WindowManager: removeIfPossible: Window{c3d0c04 u0 com.android.todolist/com.android.todolist.MainActivity} callers=com.android.server.wm.WindowState.removeIfPossible:2260 com.android.server.wm.WindowManagerService.removeWindow:2011 com.android.server.wm.Session.remove:176 android.view.IWindowSession$Stub.onTransact:634 com.android.server.wm.Session.onTransact:134 
+5720:10-24 19:33:34.323  1120  4171 V WindowManager: Not removing Window{c3d0c04 u0 com.android.todolist/com.android.todolist.MainActivity EXITING} due to exit animation 
+5732:10-24 19:33:34.493  1120  1207 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{e7af21c u0 com.android.todolist/com.android.todolist.MainActivity}
+5733:10-24 19:33:34.515  1120  1211 V WindowManager: Exit animation finished in Window{c3d0c04 u0 com.android.todolist/com.android.todolist.MainActivity EXITING}: remove=true
+5734:10-24 19:33:34.515  1120  1211 E WindowManager: win=Window{c3d0c04 u0 com.android.todolist/com.android.todolist.MainActivity EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true
+5735:10-24 19:33:34.519  1120  1211 V WindowManager: postWindowRemoveCleanupLocked: Window{c3d0c04 u0 com.android.todolist/com.android.todolist.MainActivity}
+5736:10-24 19:33:34.519  1120  1211 V WindowManager: Removing Window{c3d0c04 u0 com.android.todolist/com.android.todolist.MainActivity} from AppWindowToken{95d056 token=Token{ff7ca71 ActivityRecord{1bbf7fb u0 com.android.todolist/.MainActivity t14408}}}
+5875:10-24 19:33:39.008  1120  1245 I HwAudioServiceEx: ComponentInfo : className = com.android.todolist.MainActivity, flag=onPause, isHomeActivity=, isTop=true
+5877:10-24 19:33:39.010 21000 21078 I AppLifeChangeSensor: CAWARENESS: activityPaused componentName = ComponentInfo{com.android.todolist/com.android.todolist.MainActivity}
+5888:10-24 19:33:39.033  1943  3500 I HidataAppQoeP: foregroundUidRemove uid: 10315 name: com.android.todolist
+5915:10-24 19:33:39.109  1120  4171 V WindowManager: notifyAppStopped: AppWindowToken{95d056 token=Token{ff7ca71 ActivityRecord{1bbf7fb u0 com.android.todolist/.MainActivity t14408}}}
+6237:10-24 19:33:39.809   805 13160 D iTouchService: itouch currentPackageName = com.android.todolist
+6242:10-24 19:33:39.810   805 13160 D iTouchService: itouch:app com.android.todolist is  not game app
+6243:10-24 19:33:39.810   805 13160 D iTouchService: itouch:app com.android.todolist is  not in StylusPenList
+7160:10-24 19:33:56.927  1120  1342 V WindowManager: notifyAppResumed: wasStopped=true AppWindowToken{95d056 token=Token{ff7ca71 ActivityRecord{1bbf7fb u0 com.android.todolist/.MainActivity t14408}}}
+7186:10-24 19:33:56.958   699   869 E BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity#0]:1338: disconnect: not connected (req=1)
+7193:10-24 19:33:56.966  1120  1245 I HwAudioServiceEx: ComponentInfo : className = com.android.todolist.MainActivity, flag=onResume, isHomeActivity=, isTop=true
+7195:10-24 19:33:56.975 21000 21078 I AppLifeChangeSensor: CAWARENESS: activityResumed componentName = ComponentInfo{com.android.todolist/com.android.todolist.MainActivity}
+7197:10-24 19:33:56.976  1943  3500 D DollieActivityManagerAdapter: [Resumed] bg:true pid:29584 uid:10315 ComponentInfo{com.android.todolist/com.android.todolist.MainActivity}
+7198:10-24 19:33:56.977  1943  3500 E DollieAdapterService: notifyActivityState pkg:com.android.todolist/com.android.todolist.MainActivity state:2 fg:true mUid:10315
+7201:10-24 19:33:56.978  1943  3500 I HidataAppQoeP: foregroundUidAdd uid: 10315 name: com.android.todolist activity state: true
+7232:10-24 19:33:57.002  2036  2219 D ScenarioService: front pkg : com.android.todolist launcher: false
+7307:10-24 19:33:57.060  2036  2592 I PGServer: report state:10000 event type:2 pid:0 uid:0 pkg:com.android.todolist to pid: 1120
+7308:10-24 19:33:57.060  2036  2592 I PGServer: report state:10000 event type:2 pid:0 uid:0 pkg:com.android.todolist to pid: 2036
+7309:10-24 19:33:57.060  2036  2592 I SceneReceiver: state type: 10000 eventType:2 pid:0 uid:0 pkg:com.android.todolist
+7320:10-24 19:33:57.065  2036  2592 I PGServer: report state:10000 event type:2 pid:0 uid:0 pkg:com.android.todolist to pid: 1943
+7321:10-24 19:33:57.065  2036  2592 I PGServer: report state:10000 event type:1 pid:0 uid:0 pkg:com.android.todolist to pid: 1120
+7322:10-24 19:33:57.065  2036  2592 I PGServer: report state:10000 event type:1 pid:0 uid:0 pkg:com.android.todolist to pid: 2036
+7323:10-24 19:33:57.065  2036  2592 I SceneReceiver: state type: 10000 eventType:1 pid:0 uid:0 pkg:com.android.todolist
+7330:10-24 19:33:57.067  2036  2994 D HwThermalStateManager: current foreapp pkg : com.android.todolist
+7337:10-24 19:33:57.072  2036  2219 I APwMonitor: screen on skip front app: com.android.todolist
+7353:10-24 19:33:57.078  2036  2998 D ThermalTrace_ThermalRaise: current pkg:com.android.todolist
+7364:10-24 19:33:57.082  2036  2592 I PGServer: report state:10000 event type:1 pid:0 uid:0 pkg:com.android.todolist to pid: 1943
+7369:10-24 19:33:57.082  1943  2301 D HicomMonitor: notifyForegroundAppChanged: pkg:com.android.todolist
+7371:10-24 19:33:57.082  1943  2301 D Hicom_EmcomManagerService: onForegroundAppChanged, pkgName:com.android.todolist
+7986:10-24 19:33:57.769   805 13160 D iTouchService: itouch currentPackageName = com.android.todolist
+7991:10-24 19:33:57.769   805 13160 D iTouchService: itouch:app com.android.todolist is  not game app
+7992:10-24 19:33:57.769   805 13160 D iTouchService: itouch:app com.android.todolist is  not in StylusPenList
+8087:10-24 19:33:58.910  1120  2679 D HwUidTcpMonitor: parseWlanUidTcpStatistics lastUidTcpStatInfo = [ mUid = 10022 mPacketName = com.android.todolist mSendSegs = 918 mResendSegs = 1 mRcvSegs = 427 ]
+8478:10-24 19:34:06.915  11
